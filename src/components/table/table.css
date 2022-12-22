@@ -1,0 +1,52 @@
+thead tr {
+  color: white;
+  padding: 2rem 10rem;
+  letter-spacing: 0.1rem;
+}
+
+table {
+  border: 0;
+}
+button {
+  background-color: skyblue;
+  color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 2rem 10rem;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  border-radius: 5rem;
+}
+
+tbody {
+  background-color: #0f172a;
+  color: white;
+  padding: 2rem 10rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+}
+
+.deleteButton {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #deb887;
+  color: #5f9ea0;
+}
+
+.table-text {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0 1rem;
+  text-align: center;
+}
+body {
+  color: white;
+}

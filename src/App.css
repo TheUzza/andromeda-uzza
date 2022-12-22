@@ -1,0 +1,21 @@
+.app {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  font-size: 16px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.margin-bot {
+  margin-bottom: 2rem;
+}
