@@ -47,13 +47,7 @@ export const Table = () => {
                 >
                   <FaTrash />
                 </button>
-              </td>
-              <td>
-                <button id="edit-btn" type="button">
-                  Edit
-                </button>
-              </td>
-              <td>
+
                 <button
                   onClick={() => showStudent(item.id)}
                   id="details-btn"
@@ -81,6 +75,7 @@ export const Table = () => {
             <p>id: {student.id}</p>
             <p>Name: {student.name}</p>
             <p>Birth date: {student.birthDate}</p>
+            <p>Address: {student.address}</p>
 
             <button onClick={hideButton} className="hide-button">
               Hide
@@ -119,25 +114,25 @@ export const Table = () => {
 const initialState = [
   {
     id: 1,
-    name: "Alex",
+    name: "Aladdin",
     address: "Sweden, Stockholm",
     birthDate: "01-01-1999",
   },
   {
     id: 2,
+    name: "Alex",
+    address: "Sweden, Stockholm",
+    birthDate: "01-01-1999",
+  },
+  {
+    id: 3,
     name: "Sayeh",
     address: "Sweden, Stockholm",
     birthDate: "01-01-1999",
   },
   {
-    id: 3,
+    id: 4,
     name: "Uzza",
-    address: "Sweden, Stockholm",
-    birthDate: "01-01-1999",
-  },
-  {
-    id: 3,
-    name: "Aladdin",
     address: "Sweden, Stockholm",
     birthDate: "01-01-1999",
   },

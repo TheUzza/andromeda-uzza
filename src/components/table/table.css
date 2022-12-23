@@ -9,12 +9,12 @@ table {
 }
 button {
   background-color: skyblue;
-  color: #ffffff;
+  color: black;
   padding: 5px;
   margin: 5px;
   font-weight: bold;
   cursor: pointer;
-  padding: 2rem 10rem;
+  padding: 1rem 3rem;
   font-size: 2rem;
   letter-spacing: 0.1rem;
   border-radius: 0.5rem;
@@ -48,5 +48,21 @@ tbody {
   text-align: center;
 }
 body {
-  color: white;
+  background-color: #0f172a;
+}
+
+.box{
+  font-family: 'EB Garamond', serif;
+  color: EB Garamond;
+  padding: 20px;
+  background-color: #E8E8E8;
+  font-size: 0.95em;
+	margin: 0;
+}
+
+h1.box-title{
+  font-family: 'EB Garamond', serif;
+  color: black;
+  font-size: 0.95em;
+	margin: 0;
 }
