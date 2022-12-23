@@ -71,11 +71,10 @@ export const Table = () => {
             <div className="box-header">
               <h1 className="box-title">Student information</h1>
             </div>
-            <h3 className="big-text">{student.address}</h3>
-            <p>id: {student.id}</p>
             <p>Name: {student.name}</p>
             <p>Birth date: {student.birthDate}</p>
             <p>Address: {student.address}</p>
+            <p>id: {student.id}</p>
 
             <button onClick={hideButton} className="hide-button">
               Hide
@@ -115,25 +114,25 @@ const initialState = [
   {
     id: 1,
     name: "Aladdin",
-    address: "Sweden, Stockholm",
-    birthDate: "01-01-1999",
+    address: "Sweden, Växjo",
+    birthDate: "05-06-1995",
   },
   {
     id: 2,
     name: "Alex",
-    address: "Sweden, Stockholm",
-    birthDate: "01-01-1999",
+    address: "Sweden, Växjo",
+    birthDate: "03-04-1996",
   },
   {
     id: 3,
     name: "Sayeh",
-    address: "Sweden, Stockholm",
-    birthDate: "01-01-1999",
+    address: "Sweden, Växjo",
+    birthDate: "02-03-1997",
   },
   {
     id: 4,
     name: "Uzza",
-    address: "Sweden, Stockholm",
-    birthDate: "01-01-1999",
+    address: "Sweden, Växjo",
+    birthDate: "01-01-1998",
   },
 ];

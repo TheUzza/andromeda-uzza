@@ -20,6 +20,11 @@ button {
   border-radius: 0.5rem;
   border-radius: 5rem;
 }
+button.hide-button{
+  border-radius: 0rem;
+  background-color: #E8E8E8;
+  font-size:  0.95em;;
+}
 
 tbody {
   background-color: #0f172a;
